@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List and Tables</title>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      body {
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>List And Tables</h1>
+    <!-- Unordered List  -->
+    <p>
+      They are not numbered basically they are bullet points which you can
+      remove using CSS.
+    </p>
+    <p>You can have different type of bullet points too.</p>
+
+    <!-- Different ways to create list  -->
+    <!-- most usecase are of ul like navigation horizontal or vertical -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <ul style="list-style-type: circle">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <ul style="list-style-type: square">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+    <!-- Change type of ol with type attributes -->
+    <ol type="A">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!-- Nested List  or List within a List  -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>
+        Item 3
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </li>
+      <li>Item 4</li>
+    </ul>
+    <!-- Tables -->
+    <h2>Tables are used for tabular data.</h2>
+    <p>Old early days people use tables to create layout like sidebar, main area which is horrible.</p>
+   <!-- We can change the width of a table using width property -->
+    <table style="width: 400px">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mudassir</td>
+          <td>Mairaj</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Mufakir</td>
+          <td>Mairaj</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Arsalan</td>
+          <td>Yousuf</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+  </body>
+</html>
